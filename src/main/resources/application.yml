@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-cloud-gateway-monitoring
+
+logging:
+  level:
+    reactor:
+      netty:
+        http:
+          server:
+            AccessLog: INFO
